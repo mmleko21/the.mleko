@@ -1,4 +1,25 @@
-yaml
-title: Мой блог
-description: Блог о разработке
+title: "млеко"
+description: "Фотографии, рисунки, текст"
+baseurl: "https://github.com/mmleko21/the.mleko"
+url: "https://mmleko21.github.io"
+
+# Автор
+author:
+  name: "Иван Шепелев"
+
+# Настройки постов
+permalink: /:year/:month/:day/:title/
+paginate: 5  # Количество постов на главной
+paginate_path: "/page:num/"
+
+# Обработка Markdown
+markdown: kramdown
+highlighter: rouge
+
+# Плагины
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Настройки темы
 theme: minima
